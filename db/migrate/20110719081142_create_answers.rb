@@ -4,6 +4,7 @@ class CreateAnswers < ActiveRecord::Migration
       t.string :location
       t.text :body
       t.references :micropost
+      t.integer :micropost_id
 
       t.timestamps
     end
